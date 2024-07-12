@@ -15,7 +15,7 @@ setup('authenticate', async ({ page }) => {
     // Wait for the final URL to ensure that the cookies are actually set.
     // await page.waitForURL('https://demoqa.com/profile');
     // Alternatively, you can wait until the page reaches a state where all cookies are set.
-    await expect(page).toHaveURL('https://demoqa.com/books');
+    await expect(page).toHaveURL('https://demoqa.com/login');
 
     // End of authentication steps.
 
